@@ -1,0 +1,29 @@
+.primary-nav {
+    display: inline;
+    
+
+    &--pull-right {
+        float: right;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+        
+        @mixin clearfix;
+    }
+    li {
+        list-style: none;
+        float:left;
+        padding-right: 20px;
+        box-sizing: border-box;
+        
+    }
+    a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-weight: 300;
+        padding: 12px 0;
+    }
+}
